@@ -1,0 +1,5 @@
+org\rutz\FieldMapping.class
+org\rutz\Main.class
+org\rutz\MappingReader.class
+org\rutz\XmlBuilder.class
+org\rutz\JsonParser.class
