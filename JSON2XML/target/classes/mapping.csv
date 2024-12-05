@@ -1,0 +1,23 @@
+JSON Field,Data Type,Group,XML Path
+companyName,String,Company,Name
+companyLocation,String,Company,Location
+branches,Array,Company,Branches/Branch
+branchNameNA,String,Branch,NameNA
+branchNameEU,String,Branch,NameEU
+,String,Branch,PLACEHOLDER
+teams,Array,Branch,Teams/Team
+teamNameSD,String,Team,NameSD
+teamNameMK,String,Team,NameMK
+members,Array,Team,Members/Member
+id,String,Member,ID
+name,String,Member,Name
+role,String,Member,Role
+salary,String,Member,Salary
+tasks,Array,Member,Tasks/Task
+taskId,String,Task,TaskID
+description,String,Task,Description
+status,String,Task,Status
+campaigns,Array,Member,Campaigns/Campaign
+campaignId,String,Campaign,CampaignID
+name,String,Campaign,Name
+status,String,Campaign,Status
