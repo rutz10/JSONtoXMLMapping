@@ -1,0 +1,603 @@
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $.store.book[*].category
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $.store.book[*].author
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $.store.book[*].title
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $.store.book[*].price
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'category' for mapping '$.store.book[*].category'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'author' for mapping '$.store.book[*].author'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'title' for mapping '$.store.book[*].title'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'price' for mapping '$.store.book[*].price'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'category' for mapping '$.store.book[*].category'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'author' for mapping '$.store.book[*].author'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'title' for mapping '$.store.book[*].title'
+2024-12-10 14:30:54 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'price' for mapping '$.store.book[*].price'
+2024-12-10 14:33:18 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $
+2024-12-10 14:33:43 [main] WARN  org.rutz.JsonToXmlMapper - Skipping missing node for: $
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:45:27 [main] WARN  org.rutz.JsonToXmlMapper - Missing root node for JSONPath '$'. Skipping.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:45:27 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:46:41 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:46:56 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Writing root element: <store>
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Writing start element: <store>
+2024-12-10 14:49:14 [main] WARN  org.rutz.JsonToXmlMapper - No child mappings found for OBJECT mapping '/store'.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Closing element: <store>
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Root element <store> written successfully.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:49:14 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Writing root element: <store>
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Writing start element: <store>
+2024-12-10 14:51:50 [main] WARN  org.rutz.JsonToXmlMapper - Missing field 'book' for mapping '$.store.book[*]'. Writing empty element.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Closing element: <store>
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Root element <store> written successfully.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:51:50 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Writing root element: <store>
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Writing start element: <store>
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Writing field <book> with value ''.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Closing element: <store>
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Root element <store> written successfully.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:54:26 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Starting JSON to XML transformation.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Parsing JSON input.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - JSON parsing completed.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Initializing XML writer.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML start document.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Sorting mappings based on xPath depth.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Mappings sorted.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Grouping mappings by parent xPath.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Mappings grouped into 3 parent paths.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Processing root mappings.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Writing root element: <store>
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Writing field <book> with value ''.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Element <store> written successfully.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Root element <store> written successfully.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Writing XML end document.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - XML document written successfully.
+2024-12-10 14:57:33 [main] INFO  org.rutz.JsonToXmlMapper - Transformation completed. Output XML generated.
+2024-12-10 21:22:30 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:22:30 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:27:32 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:27:32 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:28:20 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:28:20 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:31:07 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:31:07 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:33:42 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:33:42 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:33:49 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:33:49 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:35)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:37:17 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:36)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:37:17 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:36)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:37:25 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:36)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:37:25 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:36)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:38:03 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:36)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:38:03 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:36)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:39:08 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value for 'CreatedBy': User123
+2024-12-10 21:39:08 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression: Integer
+2024-12-10 21:39:08 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:38)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:39:08 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value for 'Timestamp': 2024-11-27T12:00:00Z
+2024-12-10 21:39:08 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression: String
+2024-12-10 21:39:08 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:38)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:42:57 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value for 'CreatedBy': User123
+2024-12-10 21:42:57 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression: Integer
+2024-12-10 21:42:57 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path CreatedBy with value User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'Integer' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:38)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 21:42:57 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value for 'Timestamp': 2024-11-27T12:00:00Z
+2024-12-10 21:42:57 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression: String
+2024-12-10 21:42:57 [main] ERROR o.rutz.AttributeLevelTransformation - Error during expression evaluation for path Timestamp with value 2024-11-27T12:00:00Z
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.evaluate:52 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.evaluate(ExpressionEvaluator.java:55)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:38)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:34:30 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:34:30 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:34:30 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:34:30 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:34:30 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: Default
+2024-12-10 22:34:31 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:62)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Source value data type: java.lang.String
+2024-12-10 22:35:04 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: Default
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value: User123 (type: java.lang.String)
+2024-12-10 22:35:04 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression with context: org.apache.commons.jexl3.MapContext@3754a4bf
+2024-12-10 22:35:04 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:62)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:37:02 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:37:02 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:37:02 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:37:02 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:37:02 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized or missing XML type, defaulting to: String
+2024-12-10 22:37:02 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: String
+2024-12-10 22:37:02 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:68)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:39:16 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:39:16 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:39:16 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:39:16 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:39:16 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized or missing XML type, defaulting to: String
+2024-12-10 22:39:16 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: String
+2024-12-10 22:39:16 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:68)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Source value data type: java.lang.String
+2024-12-10 22:39:53 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: Default
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value: User123 (type: java.lang.String)
+2024-12-10 22:39:53 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression with context: org.apache.commons.jexl3.MapContext@62379589
+2024-12-10 22:39:53 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:62)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Source value data type: java.lang.String
+2024-12-10 22:47:40 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: Default
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value: User123 (type: java.lang.String)
+2024-12-10 22:47:40 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression with context: org.apache.commons.jexl3.MapContext@62379589
+2024-12-10 22:47:41 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:62)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: String
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: Default
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Source value data type: java.lang.String
+2024-12-10 22:50:02 [main] WARN  o.rutz.AttributeLevelTransformation - Unrecognized data type for conversion: Default
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Converted value: User123 (type: java.lang.String)
+2024-12-10 22:50:02 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression with context: org.apache.commons.jexl3.MapContext@3754a4bf
+2024-12-10 22:50:02 [main] ERROR o.rutz.AttributeLevelTransformation - Error evaluating JEXL expression for field: $.createdBy with value: User123
+org.apache.commons.jexl3.JexlException$Variable: org.rutz.ExpressionEvaluator.attrEval:53 variable 'String' is undefined
+	at org.rutz.ExpressionEvaluator.attrEval(ExpressionEvaluator.java:54)
+	at org.rutz.AttributeLevelTransformation.transform(AttributeLevelTransformation.java:62)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:97)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.processChildMappings(JsonToXmlMapper.java:133)
+	at org.rutz.JsonToXmlMapper.createXMLStructure(JsonToXmlMapper.java:84)
+	at org.rutz.JsonToXmlMapper.writeXmlElement(JsonToXmlMapper.java:53)
+	at org.rutz.JsonToXmlMapper.transformJsonToXml(JsonToXmlMapper.java:30)
+	at org.rutz.Main.main(Main.java:58)
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.createdBy
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: User123
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: 
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: String
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Source value data type: java.lang.String
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression with context: org.apache.commons.jexl3.MapContext@62379589
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Transformation resulted in null value, returning source value: User123
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Starting transformation for field: $.timestamp
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Source value: 2024-11-27T12:00:00Z
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Mapping expression: 
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Expected XML type: String
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Source value data type: java.lang.String
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Evaluating expression with context: org.apache.commons.jexl3.MapContext@6bedbc4d
+2024-12-10 22:56:53 [main] INFO  o.rutz.AttributeLevelTransformation - Transformation resulted in null value, returning source value: 2024-11-27T12:00:00Z

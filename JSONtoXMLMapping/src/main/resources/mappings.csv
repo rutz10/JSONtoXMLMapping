@@ -1,0 +1,14 @@
+jPath,xPath,isList,jsonType,xmlType,expression,namespace,parentXPath
+$,Event,No,String,String,,Default,Root
+$.metadata,Metadata,No,String,String,,Default,Event
+$.createdBy,CreatedBy,No,String,String,,Default,Metadata
+$.timestamp,Timestamp,No,String,String,,Default,Metadata
+$.groups[*],Hello/Groups/Group,Yes,String,String,,Default,Event
+$.name,GName,No,String,String,,Default,Hello/Groups/Group
+$.type,GType,No,String,String,,Default,Hello/Groups/Group
+$.items[*],GItems/Item,Yes,String,String,,Default,Hello/Groups/Group
+$.subGroups[*],SubGroups/SubGroup,Yes,String,String,,Default,Hello/Groups/Group
+$.name,SName,No,String,String,,Default,SubGroups/SubGroup
+$.items[*],SItems/Item,Yes,String,String,,Default,SubGroups/SubGroup
+$.value,Value,No,String,Integer,,Default,SItems/Item
+$.id,Id,No,String,String,,Default,SItems/Item

@@ -1,0 +1,37 @@
+{
+  "rootName": "ComplexRoot",
+  "metadata": {
+    "createdBy": "User123",
+    "timestamp": "2024-11-27T12:00:00Z"
+  },
+  "groups": [
+    {
+      "name": "ParentGroup",
+      "type": "parent",
+      "subGroups": [
+        {
+          "name": "ChildGroup1",
+          "items": [
+            {
+              "id": "item1",
+              "value": "5"
+            },
+            {
+              "id": "item2",
+              "value": "15"
+            }
+          ]
+        },
+        {
+          "name": "ChildGroup2",
+          "items": []
+        }
+      ]
+    },
+    {
+      "name": "AnotherGroup",
+      "type": "independent",
+      "items": ["itemA", "itemB"]
+    }
+  ]
+}
