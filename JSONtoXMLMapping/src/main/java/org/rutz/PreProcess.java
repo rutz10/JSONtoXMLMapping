@@ -64,3 +64,70 @@ public class PreProcess {
         }
     }
 }
+
+--------------------------------------------
+    // Clean the responses using the utility class in the reactive stream
+        graphApiResponses
+            .map(response -> {
+                try {
+                    // Clean the response using GraphQLResponseCleanerUtil
+                    return GraphQLResponseCleanerUtil.cleanGraphQLResponse(response);
+                } catch (IOException e) {
+                    // Handle JSON processing exceptions (e.g., malformed JSON)
+                    System.err.println("Error cleaning response: " + e.getMessage());
+                    return response; // Return original response if cleaning fails
+                }
+            })
+            .subscribe(cleanedResponse -> {
+                // Use the cleaned response (e.g., log, process, etc.)
+                System.out.println("Cleaned Response: " + cleanedResponse);
+            });
+    }
+	
+	*------------------------------------------*
+
+public void processGraphQLResponses(Flux<String> graphApiResponses) {
+        graphApiResponses
+            .map(response -> {
+                try {
+                    // Clean the response using GraphQLResponseCleanerUtil
+                    return GraphQLResponseCleanerUtil.cleanGraphQLResponse(response);
+                } catch (IOException e) {
+                    // Log the error with more context
+                    logger.error("Error cleaning GraphQL response", e);
+                    
+                    // Option 1: Return original response
+                    return response;
+                    
+                }
+            })
+    
+            .subscribe(
+                cleanedResponse -> {
+                    // Process the cleaned response
+                    logger.info("Processed Cleaned Response: {}", cleanedResponse);
+                },
+                error -> {
+                    // Handle any unexpected errors in the stream
+                    logger.error("Error in GraphQL response processing", error);
+                },
+                () -> {
+                    // Completion handler
+                    logger.info("GraphQL response processing completed");
+                }
+            );
+    }
+
+    // Alternative method with more explicit error handling
+    public Flux<String> cleanGraphQLResponses(Flux<String> graphApiResponses) {
+        return graphApiResponses
+            .map(response -> {
+                try {
+                    return GraphQLResponseCleanerUtil.cleanGraphQLResponse(response);
+                } catch (IOException e) {
+                    logger.error("Error cleaning GraphQL response", e);
+                    return response; // or handle differently based on your requirements
+                }
+            });
+    }
+	
