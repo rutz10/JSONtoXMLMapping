@@ -6,13 +6,21 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 
 import java.io.IOException;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class JsonCopyUtil {
     private static final ObjectMapper objectMapper = new ObjectMapper();
 
+    /**
+     * Generic method to copy array elements based on a specific condition
+     *
+     * @param jsonResponse Original JSON response as a string
+     * @param arrayToSearch Name of the array to search within
+     * @param fieldToMatch Nested field path to match (e.g., "departmentObject.departmentName")
+     * @param valueToMatch Value to match against
+     * @param newArrayName Name of the new array to create
+     * @return Modified JSON as a string
+     * @throws IOException If there's an error parsing the JSON
+     */
     public static String copyNestedArrayElements(
             String jsonResponse,
             String arrayToSearch,
@@ -20,11 +28,26 @@ public class JsonCopyUtil {
             String valueToMatch,
             String newArrayName) throws IOException {
 
+        // Parse the input JSON
         JsonNode rootNode = objectMapper.readTree(jsonResponse);
-        JsonNode modifiedNode = copyNestedArrayElements(rootNode, arrayToSearch, fieldToMatch, valueToMatch, newArrayName);
-        return objectMapper.writerWithDefaultPrettyPrinter().writeValueAsString(modifiedNode);
+
+        // Perform the copy operation
+        JsonNode modifiedNode = copyNestedArrayElements(
+                rootNode,
+                arrayToSearch,
+                fieldToMatch,
+                valueToMatch,
+                newArrayName
+        );
+
+        // Convert to formatted JSON string
+        return objectMapper.writerWithDefaultPrettyPrinter()
+                .writeValueAsString(modifiedNode);
     }
 
+    /**
+     * Overloaded method to work with JsonNode directly
+     */
     public static JsonNode copyNestedArrayElements(
             JsonNode rootNode,
             String arrayToSearch,
@@ -32,60 +55,96 @@ public class JsonCopyUtil {
             String valueToMatch,
             String newArrayName) {
 
-        JsonNode modifiedNode = rootNode.deepCopy(); //copy only once.
-        searchAndCopyNestedArray((ObjectNode) modifiedNode, arrayToSearch, fieldToMatch, valueToMatch, newArrayName);
+        // Create a deep copy of the original node to avoid modifying the original
+        JsonNode modifiedNode = objectMapper.valueToTree(rootNode);
+
+        // Recursively search and modify the node
+        searchAndCopyNestedArray(
+                (ObjectNode) modifiedNode,
+                arrayToSearch,
+                fieldToMatch,
+                valueToMatch,
+                newArrayName
+        );
+
         return modifiedNode;
     }
 
+    /**
+     * Recursive method to search and copy nested arrays
+     */
     private static void searchAndCopyNestedArray(
-            ObjectNode rootNode,
+            ObjectNode currentNode,
             String arrayToSearch,
             String fieldToMatch,
             String valueToMatch,
             String newArrayName) {
 
-        Queue<ObjectNode> queue = new LinkedList<>();
-        queue.add(rootNode);
+        // Iterate through all fields in the current node
+        currentNode.fields().forEachRemaining(entry -> {
+            JsonNode value = entry.getValue();
 
-        while (!queue.isEmpty()) {
-            ObjectNode currentNode = queue.poll();
-            Iterator<java.util.Map.Entry<String, JsonNode>> fields = currentNode.fields();
+            // If the current field is an array with the specified name
+            if (entry.getKey().equals(arrayToSearch) && value.isArray()) {
+                ArrayNode originalArray = (ArrayNode) value;
+                ArrayNode matchedElements = objectMapper.createArrayNode();
 
-            while (fields.hasNext()) {
-                java.util.Map.Entry<String, JsonNode> entry = fields.next();
-                String fieldName = entry.getKey();
-                JsonNode value = entry.getValue();
+                // Find and copy matching elements
+                for (JsonNode element : originalArray) {
+                    if (element.isObject()) {
+                        // Handle nested field matching
+                        JsonNode matchedField = findNestedField(element, fieldToMatch);
 
-                if (fieldName.equals(arrayToSearch) && value.isArray()) {
-                    ArrayNode originalArray = (ArrayNode) value;
-                    ArrayNode matchedElements = objectMapper.createArrayNode();
-
-                    for (JsonNode element : originalArray) {
-                        if (element.isObject()) {
-                            JsonNode matchedField = findNestedField(element, fieldToMatch);
-                            if (matchedField != null && matchedField.asText().equals(valueToMatch)) {
-                                matchedElements.add(element.deepCopy());
-                            }
-                        }
-                    }
-                    if (matchedElements.size() > 0) {
-                        currentNode.set(newArrayName, matchedElements);
-                    }
-                } else if (value.isObject()) {
-                    queue.add((ObjectNode) value);
-                } else if (value.isArray()) {
-                    for (JsonNode arrayElement : value) {
-                        if (arrayElement.isObject()) {
-                            queue.add((ObjectNode) arrayElement);
+                        if (matchedField != null && matchedField.asText().equals(valueToMatch)) {
+                            matchedElements.add(element.deepCopy());
                         }
                     }
                 }
+
+                // Add the new array if not empty
+                if (matchedElements.size() > 0) {
+                    currentNode.set(newArrayName, matchedElements);
+                }
             }
-        }
+            // If the current field is an object, recursively search
+            else if (value.isObject()) {
+                searchAndCopyNestedArray(
+                        (ObjectNode) value,
+                        arrayToSearch,
+                        fieldToMatch,
+                        valueToMatch,
+                        newArrayName
+                );
+            }
+            // If the current field is an array, recursively search each object
+            else if (value.isArray()) {
+                for (JsonNode arrayElement : value) {
+                    if (arrayElement.isObject()) {
+                        searchAndCopyNestedArray(
+                                (ObjectNode) arrayElement,
+                                arrayToSearch,
+                                fieldToMatch,
+                                valueToMatch,
+                                newArrayName
+                        );
+                    }
+                }
+            }
+        });
     }
 
+    /**
+     * Find a nested field in a JsonNode using dot notation
+     *
+     * @param node JsonNode to search
+     * @param fieldPath Dot-separated field path (e.g., "departmentObject.departmentName")
+     * @return Matched JsonNode or null if not found
+     */
     private static JsonNode findNestedField(JsonNode node, String fieldPath) {
+        // Split the field path
         String[] pathParts = fieldPath.split("\\.");
+
+        // Traverse the node
         JsonNode currentNode = node;
         for (String part : pathParts) {
             if (currentNode == null || !currentNode.isObject()) {
@@ -93,6 +152,7 @@ public class JsonCopyUtil {
             }
             currentNode = currentNode.get(part);
         }
+
         return currentNode;
     }
 }
